@@ -3,4 +3,4 @@ u = urllib.request.urlopen('http://ctabustracker.com/bustime/map/getStopPredicti
 from xml.etree.ElementTree import parse
 doc = parse(u)
 for pt in doc.findall('.//pt'):
-    print(pt.text)
+    print(pt.text) # check
