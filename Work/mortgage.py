@@ -23,4 +23,6 @@ while principal > 0:
     if principal < 0:
         total_paid = total_paid + principal
         principal = 0
-    print(months, round(total_paid,2), round(principal,2))
+    output = f'{months} ${total_paid:0.2f} {principal:0.2f}'
+    print(output)
+    # print(months, round(total_paid,2), round(principal,2))
