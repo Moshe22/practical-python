@@ -16,3 +16,4 @@ print('AA' in symbols)
 print('CAT' in symbols)
 
 #1.18 use fstrings for output on 1.10 (mortgage.py)
+# re module for patterns (date)
