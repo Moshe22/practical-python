@@ -16,6 +16,6 @@ print('mysyms', mysyms)
 symlist[-2:] = mysyms
 print('symlist', symlist)
 
-#1.20
+#10
 for s in symlist:
     print('s=',s)
